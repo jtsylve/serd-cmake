@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: serd-cmake
+Upstream-Contact: Joe T. Sylve, Ph.D. <joe.sylve@gmail.com>
+Source: https://github.com/jtsylve/serd-cmake
+
+
+Files: 
+ *
+Copyright: 2023 Joe T. Sylve, Ph.D. <joe.sylve@gmail.com>
+License: ISC
