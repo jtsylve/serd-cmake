@@ -23,26 +23,26 @@ target_sources(serd
   PUBLIC
     FILE_SET HEADERS
       BASE_DIRS
-        ${serd_SOURCE_DIR}/include
+        ${serd-source_SOURCE_DIR}/include
       FILES
-        ${serd_SOURCE_DIR}/include/serd/serd.h
+        ${serd-source_SOURCE_DIR}/include/serd/serd.h
   
   PRIVATE
-    ${serd_SOURCE_DIR}/src/base64.c
-    ${serd_SOURCE_DIR}/src/byte_source.c
-    ${serd_SOURCE_DIR}/src/env.c
-    ${serd_SOURCE_DIR}/src/n3.c
-    ${serd_SOURCE_DIR}/src/node.c
-    ${serd_SOURCE_DIR}/src/reader.c
-    ${serd_SOURCE_DIR}/src/string.c
-    ${serd_SOURCE_DIR}/src/system.c
-    ${serd_SOURCE_DIR}/src/uri.c
-    ${serd_SOURCE_DIR}/src/writer.c
+    ${serd-source_SOURCE_DIR}/src/base64.c
+    ${serd-source_SOURCE_DIR}/src/byte_source.c
+    ${serd-source_SOURCE_DIR}/src/env.c
+    ${serd-source_SOURCE_DIR}/src/n3.c
+    ${serd-source_SOURCE_DIR}/src/node.c
+    ${serd-source_SOURCE_DIR}/src/reader.c
+    ${serd-source_SOURCE_DIR}/src/string.c
+    ${serd-source_SOURCE_DIR}/src/system.c
+    ${serd-source_SOURCE_DIR}/src/uri.c
+    ${serd-source_SOURCE_DIR}/src/writer.c
 )
 
 target_include_directories(serd
   PUBLIC
-    $<BUILD_INTERFACE:${serd_SOURCE_DIR}/include>
+    $<BUILD_INTERFACE:${serd-source_SOURCE_DIR}/include>
     $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
 )
 

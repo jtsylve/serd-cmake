@@ -7,7 +7,7 @@ add_executable(serd::serdi ALIAS serdi)
 
 target_sources(serdi 
   PRIVATE
-    ${serd_SOURCE_DIR}/src/serdi.c
+    ${serd-source_SOURCE_DIR}/src/serdi.c
 )
 
 target_link_libraries(serdi
