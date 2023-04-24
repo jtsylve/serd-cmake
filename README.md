@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: © 2023 Joe T. Sylve, Ph.D <joe.sylve@gmail.com>
+SPDX-FileCopyrightText: © 2023 Joe T. Sylve, Ph.D. <joe.sylve@gmail.com>
 
 SPDX-License-Identifier: ISC
 -->
